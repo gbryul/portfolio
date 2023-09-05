@@ -22,7 +22,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/imgs/icons/points.svg');
+    background-image: url('assets/imgs/icons/points.svg');
 }
 
 .p-header .p-header__photo {
@@ -72,19 +72,19 @@
 }
 
 .p-header__info p:nth-child(1):before {
-    background-image: url('/assets/imgs/icons/formation.svg');
+    background-image: url('assets/imgs/icons/formation.svg');
 }
 
 .p-header__info p:nth-child(2):before {
-    background-image: url('/assets/imgs/icons/location.svg');
+    background-image: url('assets/imgs/icons/location.svg');
 }
 
 .p-header__info p:nth-child(3):before {
-    background-image: url('/assets/imgs/icons/phone.svg');
+    background-image: url('assets/imgs/icons/phone.svg');
 }
 
 .p-header__info p:nth-child(4):before {
-    background-image: url('/assets/imgs/icons/email.svg');
+    background-image: url('assets/imgs/icons/email.svg');
 }
 
 @media only screen and (min-width:768px) {
