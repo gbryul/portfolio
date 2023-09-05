@@ -1,12 +1,8 @@
 {
-  "nome": "Gabriel A Nascimento",
-  "titulo": "Front-end Freelancer",
-  "localidade": {
-    "cidade": "Jaboatão dos Guararapes",
-    "estado": "Pernambuco",
-    "pais": "Brasil"
-  },
-  "telefone": "(81) 99534-9952",
+  "name": "Gabriel A Nascimento",
+  "job": "Front-end Freelancer",
+  "location": "Jaboatão dos Guararapes - PE",
+  "phone": "(81) 99534-9952",
   "email": "gabriel.al@outlook.com.br",
   "skills": {
     "hardSkills": [
