@@ -8,19 +8,19 @@
     "hardSkills": [
       {
         "nome": "JavaScript",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/gbryul/portfolio/6d589398ca70c37a9af02eadd044b727b59b07f9/data/imgs/javascript.svg"
       },
       {
         "nome": "HTML",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/gbryul/portfolio/6d589398ca70c37a9af02eadd044b727b59b07f9/data/imgs/html.svg"
       },
       {
         "nome": "CSS",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/gbryul/portfolio/6d589398ca70c37a9af02eadd044b727b59b07f9/data/imgs/css.svg"
       },
       {
         "nome": "C#",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/gbryul/portfolio/6d589398ca70c37a9af02eadd044b727b59b07f9/data/imgs/csharp.svg"
       }
     ],
     "softSkills": [
