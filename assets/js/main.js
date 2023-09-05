@@ -1,4 +1,7 @@
 function addProfileInfo(profileData) {
+    const photo = document.getElementById('profile.photo')
+    photo.src = profileData.photo
+    photo.alt = profileData.alt
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
     const job = document.getElementById('profile.job')
