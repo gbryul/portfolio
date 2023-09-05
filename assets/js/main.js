@@ -1,4 +1,4 @@
-function resolveProfileInfo(profileData) {
+function addProfileInfo(profileData) {
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
     const job = document.getElementById('profile.job')
@@ -55,7 +55,7 @@ function addFormation(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData()
-    resolveProfileInfo(profileData)
+    addProfileInfo(profileData)
     addSoftSkills(profileData)
     addHardSkills(profileData)
     addLanguages(profileData)
