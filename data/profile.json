@@ -63,7 +63,7 @@
     {
       "nome": "Técnico em programação de jogos digitais",
       "descricao": "Curso técnico de programação de jogos utilizando C# e Unity",
-      "instituicao": "Escola técnica estadual Cícero Dias",
+      "instituicao": "ETE Cícero Dias",
       "periodo": {
         "inicio": "2015",
         "fim": "2017"
@@ -84,6 +84,10 @@
     }
   ],
   "experiencias": [
-    
+    {
+      "nome" :"Técnico em programação de jogos digitais",
+      "periodo": " ",
+      "descricao": " "
+    }
   ]
 }

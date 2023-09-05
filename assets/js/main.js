@@ -39,6 +39,19 @@ function addPortfolio(profileData) {
 
 }
 
+function addFormation(profileData) {
+    const formation = document.getElementById('profile.formation')
+    formation.innerHTML = profileData.educacao.map(educacao => `<li>
+    <h3 class="title">${educacao.nome}</h3>
+    <p>${educacao.instituicao}</p>
+    <p class="period">${educacao.periodo.inicio} - ${educacao.periodo.fim}</p>
+    <p>
+        ${educacao.descricao}
+    </p>
+    </li>`).join('')
+
+}
+
 
 (async () => {
     const profileData = await fetchProfileData()
@@ -47,4 +60,5 @@ function addPortfolio(profileData) {
     addHardSkills(profileData)
     addLanguages(profileData)
     addPortfolio(profileData)
+    addFormation(profileData)
 })()
