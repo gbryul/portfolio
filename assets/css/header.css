@@ -1,0 +1,115 @@
+@import url('global.css');
+@import url('acordeon.css');
+@import url('portfolio.css');
+@import url('experience.css');
+@import url('skills.css');
+
+
+.p-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.p-header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/imgs/icons/points.svg');
+}
+
+.p-header .p-header__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.p-header__title {
+    text-align: center;
+}
+
+.p-header__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.p-header__info p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+
+}
+
+.p-header__info p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.p-header__info p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.p-header__info p a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.p-header__info p:nth-child(1):before {
+    background-image: url('/assets/imgs/icons/formation.svg');
+}
+
+.p-header__info p:nth-child(2):before {
+    background-image: url('/assets/imgs/icons/location.svg');
+}
+
+.p-header__info p:nth-child(3):before {
+    background-image: url('/assets/imgs/icons/phone.svg');
+}
+
+.p-header__info p:nth-child(4):before {
+    background-image: url('/assets/imgs/icons/email.svg');
+}
+
+@media only screen and (min-width:768px) {
+
+    .p-header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo info"
+        ;
+    }
+
+    .p-header__photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .p-header__title {
+        grid-area: title;
+        text-align: start;
+        max-width: 250px;
+    }
+
+    .p-header__info {
+        grid-area: info;
+    }
+
+}

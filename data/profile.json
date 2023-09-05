@@ -1,0 +1,93 @@
+{
+  "nome": "Gabriel A Nascimento",
+  "titulo": "Education Tech Lead na DIO",
+  "localidade": {
+    "cidade": "Jaboatão dos Guararapes",
+    "estado": "Pernambuco",
+    "pais": "Brasil"
+  },
+  "telefone": "(81) 99534-9952",
+  "email": "gabriel.al@outlook.com.br",
+  "skills": {
+    "hardSkills": [
+      {
+        "nome": "JavaScript",
+        "logo": "TODO"
+      },
+      {
+        "nome": "HTML",
+        "logo": "TODO"
+      },
+      {
+        "nome": "CSS",
+        "logo": "TODO"
+      },
+      {
+        "nome": "C#",
+        "logo": "TODO"
+      }
+    ],
+    "softSkills": [
+      "Aprendizado Rápido",
+      "Empatia",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "idiomas": [
+    {
+      "nome": "Português",
+      "nivel": "Fluente"
+    },
+    {
+      "nome": "Inglês",
+      "nivel": "Intermediário"
+    },
+    {
+      "nome": "Espanhol",
+      "nivel": "Básico"
+    }
+  ],
+  "educacao": [
+    {
+      "nome": "dio.me",
+      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
+      "instituicao": "Digital Innovation One (DIO)",
+      "periodo": {
+        "inicio": "2023",
+        "fim": "Atualmente"
+      },
+      "certificados": [
+        {
+          "nome": " ",
+          "link": " "
+        }
+      ]
+    },
+    {
+      "nome": "Técnico em programação de jogos digitais",
+      "descricao": "Curso técnico de programação de jogos utilizando C# e Unity",
+      "instituicao": "Escola técnica estadual Cícero Dias",
+      "periodo": {
+        "inicio": "2015",
+        "fim": "2017"
+      }
+    }
+   
+  ],
+  "portfolio": [
+    {
+      "nome": "Projeto Página Aespa (Projeto Base: Multiverso Spider-Man: Criando um Site com HTML, CSS e JavaScript (DIO)) ",
+      "gitHub": "https://github.com/gbryul/aespa-project",
+      "certificado": "hhttps://www.dio.me/certificate/8467AD10"
+    },
+    {
+      "nome": "Pokédex (Projeto Base: Construindo uma Pokédex com JavaScript (DIO))",
+      "gitHub": "https://github.com/gbryul/js-developer-pokedex",
+      "certificado": "https://www.dio.me/certificate/A9CE3359"
+    }
+  ],
+  "experiencias": [
+    
+  ]
+}
